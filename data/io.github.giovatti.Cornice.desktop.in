@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Cornice
+GenericName=Photo Viewer
+GenericName[it]=Visualizzatore di foto
+Comment=View, cull and deblur photos, with a white frame
+Comment[it]=Guarda, scegli e togli il mosso alle foto, con la cornice bianca
+Exec="@PYTHON@" "@HERE@/cornice.py" %F
+Icon=io.github.giovatti.Cornice
+Terminal=false
+Categories=Graphics;Viewer;Photography;GTK;GNOME;
+Keywords=photo;picture;image;viewer;raw;cull;blur;deblur;frame;
+StartupNotify=true
+MimeType=image/jpeg;image/png;image/tiff;image/webp;image/x-adobe-dng;image/heic;image/heif;image/x-dng;image/x-canon-cr2;image/x-canon-cr3;image/x-canon-crw;image/x-nikon-nef;image/x-nikon-nrw;image/x-sony-arw;image/x-sony-srf;image/x-sony-sr2;image/x-fuji-raf;image/x-olympus-orf;image/x-panasonic-rw2;image/x-panasonic-raw2;image/x-pentax-pef;image/x-samsung-srw;image/x-sigma-x3f;image/x-minolta-mrw;image/x-kodak-dcr;image/x-kodak-kdc;inode/directory;

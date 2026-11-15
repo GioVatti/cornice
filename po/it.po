@@ -1,0 +1,839 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cornice\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+#: cornice.py:77 cornice.py:143 cornice.py:150 cornice.py:173
+msgid "."
+msgstr ","
+
+#: cornice.py:88
+msgid "Approved"
+msgstr "Approvate"
+
+#: cornice.py:133 cornice.py:185
+msgid "%Y-%m-%d %H:%M"
+msgstr "%d/%m/%Y %H:%M"
+
+#: cornice.py:607
+msgid "Before (100%)"
+msgstr "Prima (100%)"
+
+#: cornice.py:625
+msgid "Whole photo (click or drag to choose the area)"
+msgstr "Foto intera (clic o trascina per scegliere la zona)"
+
+#: cornice.py:634
+msgid "Estimate on the whole photo"
+msgstr "Stima su tutta la foto"
+
+#: cornice.py:636
+msgid "Estimate in the chosen area"
+msgstr "Stima nella zona scelta"
+
+#: cornice.py:638
+msgid "Try the uncertain value"
+msgstr "Prova il valore incerto"
+
+#: cornice.py:642
+msgid "Length"
+msgstr "Lunghezza"
+
+#: cornice.py:643 cornice.py:652
+msgid "%s px"
+msgstr "%s px"
+
+#: cornice.py:644
+msgid "Length of the blur, in pixels of the photo"
+msgstr "Lunghezza del mosso, in pixel della foto"
+
+#: cornice.py:645
+msgid "Direction"
+msgstr "Direzione"
+
+#: cornice.py:646
+msgid "0° horizontal, 90° vertical"
+msgstr "0° orizzontale, 90° verticale"
+
+#: cornice.py:647
+msgid "Strength"
+msgstr "Forza"
+
+#: cornice.py:648
+msgid "More sharpness, but more noise"
+msgstr "Più nitidezza, ma più rumore"
+
+#: cornice.py:649
+msgid "Noise brake"
+msgstr "Freno rumore"
+
+#: cornice.py:650
+msgid "Cleaner, but smoother"
+msgstr "Più pulito, ma più liscio"
+
+#: cornice.py:651
+msgid "Slight defocus"
+msgstr "Fuori fuoco leggero"
+
+#: cornice.py:653
+msgid "Removes an extra uniform blur"
+msgstr "Toglie una sfocatura uniforme in più"
+
+#: cornice.py:664
+msgid "Save copy"
+msgstr "Salva copia"
+
+#: cornice.py:664
+msgid "Writes <name>_nitida next to the originals"
+msgstr "Scrive <nome>_nitida accanto agli originali"
+
+#: cornice.py:667
+msgid "Replace the original"
+msgstr "Sostituisci l'originale"
+
+#: cornice.py:668
+msgid "The originals go to the trash; Ctrl+Z undoes"
+msgstr "Gli originali vanno nel cestino; Ctrl+Z annulla"
+
+#: cornice.py:804
+msgid "Loading %s…"
+msgstr "Carico %s…"
+
+#: cornice.py:806 cornice.py:828
+msgid "Loading the photos…"
+msgstr "Carico le foto…"
+
+#: cornice.py:817
+msgid "sensor not supported: the blur of this RAW cannot be corrected"
+msgstr "sensore non supportato: di questo RAW non si può correggere il mosso"
+
+#: cornice.py:851
+msgid "%s cannot be corrected (%s): only %s is corrected."
+msgstr "%s non si può correggere (%s): correggo solo %s."
+
+#: cornice.py:861
+msgid "Estimated blur: %s pixels at %s°. Check the \"After\" crop and, if needed, adjust the sliders; then save."
+msgstr "Mosso stimato: %s pixel a %s°. Controlla il ritaglio \"Dopo\" e, se serve, ritocca i cursori; poi salva."
+
+#: cornice.py:866
+msgid "Not sure: maybe a blur of %s pixels at %s°. Press \"Try the uncertain value\" and judge from the \"After\" crop; if it gets worse, set the length back to zero."
+msgstr "Non sono sicuro: forse un mosso di %s pixel a %s°. Premi \"Prova il valore incerto\" e giudica dal ritaglio \"Dopo\"; se peggiora, riporta la lunghezza a zero."
+
+#: cornice.py:877
+msgid "Cannot be corrected"
+msgstr "Non si può correggere"
+
+#: cornice.py:891
+msgid "Estimating the blur in the chosen area…"
+msgstr "Stimo il mosso nella zona scelta…"
+
+#: cornice.py:894
+msgid "Estimating the blur…"
+msgstr "Stimo il mosso…"
+
+#: cornice.py:899
+msgid "Estimation error: %s"
+msgstr "Errore nella stima: %s"
+
+#: cornice.py:904
+msgid "I cannot find an obvious straight-line blur in this area. Try clicking on a part of the subject with more detail (lettering, sharp edges), or set the sliders by hand."
+msgstr "In questa zona non trovo un mosso rettilineo evidente. Prova a cliccare su una parte del soggetto con più dettagli (scritte, bordi netti), oppure regola i cursori a mano."
+
+#: cornice.py:914
+msgid " (confirmed by %s)"
+msgstr " (confermato da %s)"
+
+#: cornice.py:915
+msgid "Estimated blur: %s pixels at %s°%s. Check the \"After\" crop and, if needed, adjust the sliders; then save."
+msgstr "Mosso stimato: %s pixel a %s°%s. Controlla il ritaglio \"Dopo\" e, se serve, ritocca i cursori; poi salva."
+
+#: cornice.py:920
+msgid "Not sure: maybe a blur of %s pixels at %s° (%s). Press \"Try the uncertain value\" and judge from the \"After\" crop; if it gets worse, set the length back to zero."
+msgstr "Non sono sicuro: forse un mosso di %s pixel a %s° (%s). Premi \"Prova il valore incerto\" e giudica dal ritaglio \"Dopo\"; se peggiora, riporta la lunghezza a zero."
+
+#: cornice.py:925
+msgid "I cannot find an obvious straight-line blur, either on the whole photo or in its areas. If only the subject is blurred, click on it in the whole photo and press \"Estimate in the chosen area\". Otherwise the photo is sharp or out of focus: for a slight defocus try the last slider."
+msgstr "Non trovo un mosso rettilineo evidente, né su tutta la foto né nelle sue zone. Se è mosso solo il soggetto, clicca su di lui nella foto intera e premi \"Stima nella zona scelta\". Altrimenti la foto è nitida o fuori fuoco: per un fuori fuoco leggero prova l'ultimo cursore."
+
+#: cornice.py:937
+msgid "Trying %s pixels at %s°: look at the \"After\" crop. If the edges become double or streaks appear, the value is wrong: set the length back to zero."
+msgstr "Provo %s pixel a %s°: guarda il ritaglio \"Dopo\". Se i bordi diventano doppi o compaiono strisce, il valore è sbagliato: riporta la lunghezza a zero."
+
+#: cornice.py:1019
+msgid "After (100%): updating…"
+msgstr "Dopo (100%): aggiorno…"
+
+#: cornice.py:1036 cornice.py:608
+msgid "After (100%)"
+msgstr "Dopo (100%)"
+
+#: cornice.py:1052
+msgid "Nothing to correct"
+msgstr "Niente da correggere"
+
+#: cornice.py:1052
+msgid "Blur and defocus are both zero: there is nothing to correct."
+msgstr "Mosso e fuori fuoco sono a zero: non c'è niente da correggere."
+
+#: cornice.py:1062
+msgid "Files already there"
+msgstr "File già presenti"
+
+#: cornice.py:1063
+msgid ""
+"These already exist:\n"
+"%s\n"
+"\n"
+"Shall I overwrite them?"
+msgstr ""
+"Esistono già:\n"
+"%s\n"
+"\n"
+"Li sovrascrivo?"
+
+#: cornice.py:1065
+msgid "Don't overwrite"
+msgstr "Non sovrascrivere"
+
+#: cornice.py:1065
+msgid "Overwrite"
+msgstr "Sovrascrivi"
+
+#: cornice.py:1080 cornice.py:1159
+msgid "Cannot replace"
+msgstr "Non posso sostituire"
+
+#: cornice.py:1081
+msgid ""
+"Another file already has the name the corrected version would take:\n"
+"%s\n"
+"\n"
+"Nothing was touched. Use \"Save copy\"."
+msgstr ""
+"Esiste già un altro file con il nome che prenderebbe la versione corretta:\n"
+"%s\n"
+"\n"
+"Non è stato toccato nulla. Usa \"Salva copia\"."
+
+#: cornice.py:1092
+msgid "Replace the original?"
+msgstr "Sostituire l'originale?"
+
+#: cornice.py:1093
+msgid ""
+"The corrected versions take the place of:\n"
+"%s\n"
+"\n"
+"The originals go to the trash: you can recover them, and Ctrl+Z undoes the replacement. A JPG that is saved again loses a little quality."
+msgstr ""
+"Le versioni corrette prendono il posto di:\n"
+"%s\n"
+"\n"
+"Gli originali vanno nel cestino: si possono recuperare, e Ctrl+Z annulla la sostituzione. Un JPG salvato di nuovo perde un po' di qualità."
+
+#: cornice.py:1096
+msgid "Cancel"
+msgstr "Annulla"
+
+#: cornice.py:1096
+msgid "Replace"
+msgstr "Sostituisci"
+
+#: cornice.py:1100 cornice.py:1753
+msgid "The trash is not available"
+msgstr "Il cestino non è disponibile"
+
+#: cornice.py:1101
+msgid "For these files (for example on an SD card) I cannot send the originals to the trash, so I do not replace them. Use \"Save copy\"."
+msgstr "Per questi file (per esempio su una scheda SD) non posso mandare gli originali nel cestino, quindi non li sostituisco. Usa \"Salva copia\"."
+
+#: cornice.py:1140
+msgid "Replacing…"
+msgstr "Sostituisco…"
+
+#: cornice.py:1140
+msgid "Saving the copy…"
+msgstr "Salvo la copia…"
+
+#: cornice.py:1145
+msgid "Removing the blur from the whole photo (10-15 seconds per file)…"
+msgstr "Tolgo il mosso dalla foto intera (10-15 secondi per file)…"
+
+#: cornice.py:1155
+msgid "Nothing was replaced: the trash is not available."
+msgstr "Non ho sostituito nulla: il cestino non è disponibile."
+
+#: cornice.py:1158
+msgid "Nothing was replaced: a file with that name already exists."
+msgstr "Non ho sostituito nulla: esiste già un file con quel nome."
+
+#: cornice.py:1159
+msgid ""
+"Other files with these names already exist:\n"
+"%s\n"
+"\n"
+"Nothing was touched."
+msgstr ""
+"Esistono già altri file con questi nomi:\n"
+"%s\n"
+"\n"
+"Non è stato toccato nulla."
+
+#: cornice.py:1162
+msgid "Saving interrupted: nothing was written."
+msgstr "Salvataggio interrotto: non è stato scritto nulla."
+
+#: cornice.py:1164
+msgid "Saving failed: %s"
+msgstr "Salvataggio non riuscito: %s"
+
+#: cornice.py:1165
+msgid "Saving failed"
+msgstr "Salvataggio non riuscito"
+
+#: cornice.py:1165
+msgid ""
+"%s\n"
+"\n"
+"The originals were not touched."
+msgstr ""
+"%s\n"
+"\n"
+"Gli originali non sono stati toccati."
+
+#: cornice.py:1233
+msgid "Open folder (Ctrl+O)"
+msgstr "Apri cartella (Ctrl+O)"
+
+#: cornice.py:1236
+msgid "Done"
+msgstr "Fine"
+
+#: cornice.py:1236
+msgid "Back to the photos (Esc)"
+msgstr "Torna alle foto (Esc)"
+
+#: cornice.py:1240 cornice.py:2000 cornice.py:2062
+msgid "Cull"
+msgstr "Cernita"
+
+#: cornice.py:1240
+msgid "Discard or approve photos"
+msgstr "Scarta o approva le foto"
+
+#: cornice.py:1245 cornice.py:1997 cornice.py:2064
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: cornice.py:1246 cornice.py:2074
+msgid "Keyboard shortcuts"
+msgstr "Scorciatoie da tastiera"
+
+#: cornice.py:1247
+msgid "About Cornice"
+msgstr "Informazioni su Cornice"
+
+#: cornice.py:1249
+msgid "Main menu"
+msgstr "Menu principale"
+
+#: cornice.py:1252
+msgid "Frame"
+msgstr "Cornice"
+
+#: cornice.py:1252
+msgid "White frame (C)"
+msgstr "Cornice bianca (C)"
+
+#: cornice.py:1259 cornice.py:1270
+msgid "Frame thickness"
+msgstr "Spessore della cornice"
+
+#: cornice.py:1267
+msgid "percentage of the photo's short side"
+msgstr "percentuale del lato corto della foto"
+
+#: cornice.py:1275
+msgid "No photo open"
+msgstr "Nessuna foto aperta"
+
+#: cornice.py:1276
+msgid "Open a folder or drop a photo here."
+msgstr "Apri una cartella o trascina qui una foto."
+
+#: cornice.py:1277 cornice.py:1454 cornice.py:2057
+msgid "Open folder"
+msgstr "Apri cartella"
+
+#: cornice.py:1291 cornice.py:2061
+msgid "Deblur"
+msgstr "Togli mosso"
+
+#: cornice.py:1301
+msgid "Previous (←)"
+msgstr "Precedente (←)"
+
+#: cornice.py:1303
+msgid "Next (→)"
+msgstr "Successiva (→)"
+
+#: cornice.py:1329
+msgid "Discard"
+msgstr "Scarta"
+
+#: cornice.py:1329
+msgid "Move to the trash (X, Del)"
+msgstr "Scarta nel cestino (X, Canc)"
+
+#: cornice.py:1332
+msgid "Approve"
+msgstr "Approva"
+
+#: cornice.py:1332 cornice.py:1646
+msgid "Move to the destination (A, Enter)"
+msgstr "Sposta nella destinazione (A, Invio)"
+
+#: cornice.py:1502
+msgid "Cannot open: %s"
+msgstr "Impossibile aprire: %s"
+
+#: cornice.py:1508
+msgid "No photos"
+msgstr "Nessuna foto"
+
+#: cornice.py:1508
+msgid "There are no photos in this folder that Cornice can open."
+msgstr "In questa cartella non ci sono foto che Cornice sappia aprire."
+
+#: cornice.py:1582
+msgid "Cannot open %s"
+msgstr "Impossibile aprire %s"
+
+#: cornice.py:1615
+msgid "embedded preview"
+msgstr "anteprima incorporata"
+
+#: cornice.py:1647
+msgid "The current folder is already the destination"
+msgstr "La cartella corrente è già la destinazione"
+
+#: cornice.py:1649
+msgid "Destination: %s"
+msgstr "Destinazione: %s"
+
+#: cornice.py:1652
+msgid "%d photo left"
+msgid_plural "%d photos left"
+msgstr[0] "%d foto resta"
+msgstr[1] "%d foto restano"
+
+#: cornice.py:1698
+msgid "Undo"
+msgstr "Annulla"
+
+#: cornice.py:1732
+msgid "Culling finished"
+msgstr "Cernita finita"
+
+#: cornice.py:1732
+msgid "There are no more photos in this folder."
+msgstr "Non ci sono più foto in questa cartella."
+
+#: cornice.py:1754
+msgid "%s cannot be moved to the trash. Do you want to delete it permanently? This cannot be undone."
+msgstr "%s non può essere spostata nel cestino. Vuoi cancellarla definitivamente? Non si può annullare."
+
+#: cornice.py:1756
+msgid "Don't delete"
+msgstr "Non cancellare"
+
+#: cornice.py:1756
+msgid "Delete permanently"
+msgstr "Cancella definitivamente"
+
+#: cornice.py:1762
+msgid "Discard failed: %s"
+msgstr "Scarto non riuscito: %s"
+
+#: cornice.py:1773
+msgid "Deletion failed: %s"
+msgstr "Eliminazione non riuscita: %s"
+
+#: cornice.py:1776
+msgid "%s deleted permanently"
+msgstr "%s eliminata definitivamente"
+
+#: cornice.py:1790
+msgid "Files already there and different"
+msgstr "File già presenti e diversi"
+
+#: cornice.py:1791
+msgid ""
+"These files already exist in the destination with different content:\n"
+"%s\n"
+"\n"
+"Nothing was moved."
+msgstr ""
+"Nella destinazione esistono già questi file con contenuto diverso:\n"
+"%s\n"
+"\n"
+"Non è stato spostato nulla."
+
+#: cornice.py:1796
+msgid "Approval failed: %s"
+msgstr "Approvazione non riuscita: %s"
+
+#: cornice.py:1817
+msgid "Undo failed: %s"
+msgstr "Annullamento non riuscito: %s"
+
+#: cornice.py:1828
+msgid "%s: original restored"
+msgstr "%s: originale ripristinato"
+
+#: cornice.py:1832
+msgid "%s restored"
+msgstr "%s ripristinata"
+
+#: cornice.py:1890
+msgid "Sharp"
+msgstr "Nitida"
+
+#: cornice.py:1892
+msgid "Recoverable blur · %.0f px at %.0f°"
+msgstr "Mosso recuperabile · %.0f px a %.0f°"
+
+#: cornice.py:1894
+msgid "Uncertain blur · %.0f px at %.0f°"
+msgstr "Mosso incerto · %.0f px a %.0f°"
+
+#: cornice.py:1913
+msgid "Deblur is not available: numpy or Pillow is missing"
+msgstr "Togli mosso non è disponibile: mancano numpy o Pillow"
+
+#: cornice.py:1933 cornice.py:2323
+msgid "Deblur · %s"
+msgstr "Togli mosso · %s"
+
+#: cornice.py:1967
+msgid "Saved, but I cannot show it: %s"
+msgstr "Salvato, ma non riesco a mostrarlo: %s"
+
+#: cornice.py:1993 cornice.py:1977
+msgid "Saved: %s"
+msgstr "Salvato: %s"
+
+#: cornice.py:2001 cornice.py:2108 cornice.py:2006 cornice.py:2113
+msgid "Destination folder"
+msgstr "Cartella di destinazione"
+
+#: cornice.py:2003 cornice.py:2110
+msgid "Choose…"
+msgstr "Scegli…"
+
+#: cornice.py:2027 cornice.py:2059
+msgid "White frame"
+msgstr "Cornice bianca"
+
+#: cornice.py:2029
+msgid "Thickness"
+msgstr "Spessore"
+
+#: cornice.py:2030
+msgid "Percentage of the photo's short side"
+msgstr "Percentuale del lato corto della foto"
+
+#: cornice.py:2036
+msgid "Blur indicator"
+msgstr "Indicatore di mosso"
+
+#: cornice.py:2037
+msgid "Show the blur indicator"
+msgstr "Mostra l'indicatore di mosso"
+
+#: cornice.py:2038
+msgid "Estimated in a separate process, with a cache"
+msgstr "Stima in un processo separato, con cache"
+
+#: cornice.py:2039
+msgid "Not available: mosso.py module missing"
+msgstr "Non disponibile: modulo mosso.py assente"
+
+#: cornice.py:2055
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: cornice.py:2055
+msgid "Previous photo"
+msgstr "Foto precedente"
+
+#: cornice.py:2055
+msgid "Next photo"
+msgstr "Foto successiva"
+
+#: cornice.py:2056
+msgid "First photo"
+msgstr "Prima foto"
+
+#: cornice.py:2056
+msgid "Last photo"
+msgstr "Ultima foto"
+
+#: cornice.py:2058
+msgid "View"
+msgstr "Vista"
+
+#: cornice.py:2058
+msgid "Zoom in"
+msgstr "Ingrandisci"
+
+#: cornice.py:2058
+msgid "Zoom out"
+msgstr "Riduci"
+
+#: cornice.py:2058
+msgid "Fit to window"
+msgstr "Adatta alla finestra"
+
+#: cornice.py:2059
+msgid "Actual size (100%)"
+msgstr "Dimensione reale (100%)"
+
+#: cornice.py:2060
+msgid "Full screen"
+msgstr "Schermo intero"
+
+#: cornice.py:2060
+msgid "Leave full screen"
+msgstr "Esci dallo schermo intero"
+
+#: cornice.py:2061
+msgid "Enter Deblur mode (any photo)"
+msgstr "Entra in Togli mosso (tutte le foto)"
+
+#: cornice.py:2061
+msgid "Leave Deblur mode"
+msgstr "Esci da Togli mosso"
+
+#: cornice.py:2062
+msgid "Move to the trash"
+msgstr "Scarta nel cestino"
+
+#: cornice.py:2062
+msgid "Approve (move to the destination)"
+msgstr "Approva (sposta nella destinazione)"
+
+#: cornice.py:2063
+msgid "Undo the last action"
+msgstr "Annulla l'ultima azione"
+
+#: cornice.py:2064
+msgid "General"
+msgstr "Generale"
+
+#: cornice.py:2075 cornice.py:1706
+msgid "OK"
+msgstr "Va bene"
+
+#: cornice.py:2090
+msgid "Photo viewer with a white frame, culling, a blur indicator and a built-in deblur."
+msgstr "Visualizzatore di foto con cornice bianca, cernita e indicatore di mosso."
+
+#: cornice.py:2103
+msgid "Welcome to Cornice"
+msgstr "Benvenuto in Cornice"
+
+#: cornice.py:2104
+msgid ""
+"Cornice shows your photos with an optional white frame, helps you go through them and keep the good ones (the others go to the trash, and you can undo), tells you about camera shake and can remove it.\n"
+"\n"
+"Where should approved photos go?"
+msgstr ""
+"Cornice mostra le foto con una cornice bianca facoltativa, ti aiuta a scorrerle e tenere quelle buone (le altre vanno nel cestino, e puoi annullare), ti avvisa del mosso e lo toglie.\n"
+"\n"
+"Dove devono andare le foto approvate?"
+
+#: cornice.py:2133
+msgid "Continue"
+msgstr "Continua"
+
+#: cornice.py:2150
+msgid "Saving: please wait until it finishes"
+msgstr "Sto salvando: aspetta la fine"
+
+#: cornice.py:2516
+msgid ""
+"Usage: cornice.py [OPTIONS] [PHOTO or FOLDER ...]\n"
+"\n"
+"Options:\n"
+"  -h, --help          show this help and exit\n"
+"  --version           show the version and exit\n"
+"  --autoprova FOLDER  run the automatic window test on a folder of COPIES (developers)\n"
+msgstr ""
+"Uso: cornice.py [OPZIONI] [FOTO o CARTELLA ...]\n"
+"\n"
+"Opzioni:\n"
+"  -h, --help          mostra questo aiuto ed esce\n"
+"  --version           mostra la versione ed esce\n"
+"  --autoprova CARTELLA  prova automatica della finestra su una cartella di COPIE (sviluppo)\n"
+
+#: mosso.py:49 mosso.py:138
+msgid "numpy or PIL not available"
+msgstr "numpy o PIL non disponibili"
+
+#: mosso.py:225
+msgid "computation interrupted: %s"
+msgstr "calcolo interrotto: %s"
+
+#: operazioni.py:37
+msgid "Different files with the same names already exist:"
+msgstr "Esistono già file diversi con lo stesso nome:"
+
+#: operazioni.py:123 operazioni.py:263 operazioni.py:434 operazioni.py:566
+msgid "File not found: %s"
+msgstr "File non trovato: %s"
+
+#: operazioni.py:128
+msgid "This file does not belong to any shot: %s"
+msgstr "Questo file non appartiene a nessuno scatto: %s"
+
+#: operazioni.py:215
+msgid "The copy of %s does not match the original."
+msgstr "La copia di %s non coincide con l'originale."
+
+#: operazioni.py:266
+msgid "Cannot delete from the folder: %s"
+msgstr "Non posso cancellare dalla cartella: %s"
+
+#: operazioni.py:305
+msgid "Operation interrupted (%s) and I could not put everything back. The copies remain in %s; the originals of these are missing: %s"
+msgstr "Operazione interrotta (%s) e non sono riuscito a rimettere a posto tutto. Le copie restano in %s; mancano gli originali di: %s"
+
+#: operazioni.py:311
+msgid "Cannot delete the original: %s. Nothing has changed."
+msgstr "Non riesco a cancellare l'originale: %s. Non è cambiato nulla."
+
+#: operazioni.py:322
+msgid "The destination is not a folder: %s"
+msgstr "La destinazione non è una cartella: %s"
+
+#: operazioni.py:324 operazioni.py:326
+msgid "The destination is the folder the photo is already in."
+msgstr "La destinazione è la cartella in cui si trova già la foto."
+
+#: operazioni.py:332
+msgid "%s approved"
+msgstr "%s approvata"
+
+#: operazioni.py:363
+msgid "Cannot read the trash: %s"
+msgstr "Non riesco a leggere il cestino: %s"
+
+#: operazioni.py:386
+msgid "Cannot move %s to the trash: %s"
+msgstr "Non riesco a cestinare %s: %s"
+
+#: operazioni.py:413 operazioni.py:498 operazioni.py:615
+msgid "No longer in the trash: %s"
+msgstr "Nel cestino non c'è più: %s"
+
+#: operazioni.py:415
+msgid "Not found in the trash: %s"
+msgstr "Nel cestino non trovo: %s"
+
+#: operazioni.py:425
+msgid "Cannot restore %s from the trash: %s"
+msgstr "Non riesco a ripristinare %s dal cestino: %s"
+
+#: operazioni.py:455 operazioni.py:596
+msgid "%s. I also could not put these back: %s. They are in the trash."
+msgstr "%s. Inoltre non sono riuscito a rimettere a posto: %s. Si trovano nel cestino."
+
+#: operazioni.py:464
+msgid "%s discarded"
+msgstr "%s scartata"
+
+#: operazioni.py:489
+msgid "Could not delete: "
+msgstr "Non sono riuscito a cancellare: "
+
+#: operazioni.py:508
+msgid "%s. Restored before the error: %s."
+msgstr "%s. Ripristinati prima dell'errore: %s."
+
+#: operazioni.py:508
+msgid "none"
+msgstr "nessuno"
+
+#: operazioni.py:557
+msgid "Nothing to replace."
+msgstr "Niente da sostituire."
+
+#: operazioni.py:562
+msgid "Invalid final name: %s"
+msgstr "Nome finale non valido: %s"
+
+#: operazioni.py:564
+msgid "The file is not part of the shot: %s"
+msgstr "Il file non è dello scatto: %s"
+
+#: operazioni.py:568
+msgid "Corrected file not found in the original's folder: %s"
+msgstr "File corretto non trovato nella cartella dell'originale: %s"
+
+#: operazioni.py:570
+msgid "Cannot write to the folder: %s"
+msgstr "Non posso scrivere nella cartella: %s"
+
+#: operazioni.py:578 operazioni.py:385
+msgid "The trash is not available for this file: %s"
+msgstr "Il cestino non è disponibile per questo file: %s"
+
+#: operazioni.py:607
+msgid "%s corrected"
+msgstr "%s corretta"
+
+#: operazioni.py:618
+msgid "Corrected file not found: %s"
+msgstr "File corretto non trovato: %s"
+
+#: operazioni.py:657
+msgid "the corrected file stays in %s"
+msgstr "il file corretto resta in %s"
+
+#: operazioni.py:661
+msgid "%s. Undo interrupted: %s."
+msgstr "%s. Annullamento interrotto: %s."
+
+#: operazioni.py:676
+msgid "Unknown action: %s"
+msgstr "Azione sconosciuta: %s"
+
+#: togli.py:246
+msgid "RAW files need the rawpy library, which is not installed here."
+msgstr "Per i file RAW serve la libreria rawpy, che qui non è installata."
+
+#: togli.py:250
+msgid "Cannot read this RAW: %s"
+msgstr "Non riesco a leggere questo RAW: %s"
+
+#: togli.py:389
+msgid "Sensor not supported: only a RAW with a Bayer sensor (or a CHDK DNG) can be corrected."
+msgstr "Sensore non supportato: di questo RAW si può correggere solo un file con sensore Bayer (e il DNG di CHDK)."
+
+#: togli.py:554
+msgid "reliability %.1f"
+msgstr "affidabilità %.1f"
+
+#: togli.py:556
+msgid "%d zones out of %d"
+msgstr "%d zone su %d"
+
+#: togli.py:562
+msgid "reliability %.1f, %s"
+msgstr "affidabilità %.1f, %s"
