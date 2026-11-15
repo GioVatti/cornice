@@ -18,13 +18,17 @@ A photo viewer for Linux (GNOME) that I wanted for myself, written in Python wit
 
 ## Screenshots
 
-<!-- TODO: add screenshots in docs/screenshots/ and link them here
-![Viewer with the white frame](docs/screenshots/viewer.png)
-![Culling](docs/screenshots/culling.png)
-![Deblur mode](docs/screenshots/deblur.png)
--->
+**Viewer with the white frame**, and the blur indicator in the corner:
 
-*(coming soon, see `docs/screenshots/`)*
+![Viewer with the white frame](docs/screenshots/viewer.png)
+
+**Culling** (Discard / Approve at the bottom). This shot is blurred, and Cornice offers to fix it:
+
+![Culling a blurred photo](docs/screenshots/culling.png)
+
+**Deblur**: the same photo at 100 %, before and after. The RAW is corrected on the sensor data and saved as a DNG:
+
+![Deblur mode](docs/screenshots/deblur.png)
 
 ## Install
 

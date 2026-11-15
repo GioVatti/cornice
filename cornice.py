@@ -651,8 +651,9 @@ class PannelloTogli(Gtk.Box):
         self.s_sfoc, self.v_sfoc = self._cursore(cont, _('Slight defocus'), 0, 8, 0.1, 0.0,
                                                  lambda v: _('%s px') % dec(v, 1),
                                                  _('Removes an extra uniform blur'))
-        self.lbl_file = Gtk.Label(xalign=0, wrap=True, wrap_mode=2, css_classes=['caption', 'dim-label'])
-        cont.append(self.lbl_file)
+        # una riga per etichetta: con alcuni caratteri GTK 4 non disegna i trattini bassi dalla seconda riga in giù
+        self.box_file = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=2)
+        cont.append(self.box_file)
         self.scorri = Gtk.ScrolledWindow(vexpand=True, hscrollbar_policy=Gtk.PolicyType.NEVER, child=cont)
         lat.append(self.scorri)
 
@@ -850,7 +851,11 @@ class PannelloTogli(Gtk.Box):
         if note:
             self.nota = ' '.join(_('%s cannot be corrected (%s): only %s is corrected.')
                                  % (os.path.basename(p), m, ', '.join(f.nome for f in usabili)) for p, m in note)
-        self.lbl_file.set_label('\n'.join(nomi) + ('\n\n' + self.nota if self.nota else ''))
+        while (figlio := self.box_file.get_first_child()) is not None:
+            self.box_file.remove(figlio)
+        for riga in nomi + ([''] + [self.nota] if self.nota else []):
+            self.box_file.append(Gtk.Label(label=riga, xalign=0, wrap=True, wrap_mode=2,
+                                           css_classes=['caption', 'dim-label']))
         self._abilita()
         e0 = self.esito0
         if e0 is not None and e0.stato in ('recuperabile', 'incerto'):
@@ -2185,7 +2190,7 @@ class Finestra(Adw.ApplicationWindow):
         (anteprima, cursori, salva copia, sostituisci e annulla) e primo avvio con una configurazione temporanea."""
         self._autoprova_attiva = True
         self.errori_autoprova = errori = []
-        dest = os.path.join(cartella, 'approvate_prova')
+        dest = os.path.join(cartella, 'Approved')
         self._dest_forzata = dest
         t0 = time.monotonic()
         print(f'  language: {lingua.lingua_attiva()}, theme: {os.environ.get("CORNICE_TEMA") or "dark"}')
